@@ -2,8 +2,10 @@
 function lowerCaseDrivers(input) {
   return input.map(function (text) { return text.toLowerCase(); });
 }
-function nameToAttributes(input) {
-  return input.map(function (text) { return object.assign({},text,{firstName: text.split(" ")[0]) })}
-
-
-}
+function nameToAttributes(array) {
+   return array.map(function (driver) {
+     let newDriver = {}
+     newDriver.firstName = driver.split(" ")[0];
+     newDriver.lastName = driver.split(" ")[1];
+     return newDriver;
+  })
