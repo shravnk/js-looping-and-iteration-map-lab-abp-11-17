@@ -1,5 +1,4 @@
 // Code your solution in this file.
 function lowerCaseDrivers(input) {
-  map(input.toLowerCase)
+  input.map(function (text) {return text.toLowerCase})
 }
-
