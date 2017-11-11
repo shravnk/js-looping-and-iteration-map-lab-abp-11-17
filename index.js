@@ -3,7 +3,7 @@ function lowerCaseDrivers(input) {
   return input.map(function (text) { return text.toLowerCase(); });
 }
 function nameToAttributes(input) {
-  return input.map(function (text) { return object.assign({},text,{firstName: text.split(0)) });}
-  
-  
+  return input.map(function (text) { return object.assign({},text,{firstName: text.split(0)) })}
+
+
 }
