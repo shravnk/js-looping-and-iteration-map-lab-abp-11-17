@@ -3,5 +3,3 @@ function lowerCaseDrivers(input) {
   map(input.toLowerCase)
 }
 
-
-}
