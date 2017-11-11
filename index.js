@@ -8,5 +8,5 @@ function nameToAttributes(array) {
      newDriver.firstName = driver.split(" ")[0];
      newDriver.lastName = driver.split(" ")[1];
      return newDriver;
-  }
+  })
 }
